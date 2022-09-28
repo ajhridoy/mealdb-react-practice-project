@@ -1,0 +1,23 @@
+.search{
+    background-color: black;
+    text-align: center;
+}
+.search .btn{
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.meals-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.meal-sec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 20px;
+}
+.cart-sec{
+    background-color: aqua;
+}
